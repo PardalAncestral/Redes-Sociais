@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-     --bg-color: #2E073F; 
-     --primary-color: #EBD3F8; 
-     --secondary-color: #7A1CAC; 
-     --font: "Nunito Sans", sans-serif;
+    --bg-color: #2E073F; 
+    --primary-color: #EBD3F8; 
+    --secondary-color: #7A1CAC; 
+    --font: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -50,7 +50,11 @@ nav a:hover {
     margin: 5rem;
 }
 
-.graficos-container__texto{
+.grafico {
+    margin-top: 3rem;
+}
+
+.graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
